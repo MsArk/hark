@@ -13,7 +13,7 @@ async function getActiveTab() {
 
 async function refreshUI() {
   const {
-    pattern = 'prospecting-full',
+    pattern = '',
     autoDownload = true,
     exactPath: ep = false,
     allowedMethods = []

@@ -149,7 +149,7 @@ chrome.debugger.onEvent.addListener(async (source, method, params) => {
       }
 
       const {
-        pattern = 'prospecting-full',
+        pattern = '',
         autoDownload = true,
         exactPath = false,
         allowedMethods = []
